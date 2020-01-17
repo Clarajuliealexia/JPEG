@@ -1,8 +1,4 @@
-Ensimag 1A 2018-2019 - Projet C : décodeur JPEG
-
-Clara Bourgoin
-Afnane Kotbi
-Carla Puech
+# Ensimag 1A 2018-2019 - Projet C : décodeur JPEG
 
 Bienvenue sur le dépôt du projet C de Clara Bourgoin, Afnane Kotbi et Carla Puech.
 Vous y trouverez:
@@ -17,11 +13,7 @@ Vous y trouverez:
     - un répertoire Images_progressives contenant toutes les images jpeg fournies au départ mais en version progressive (e.g. invader.jpeg devient invader_prog.jpeg).
     - un répertoire Test_echantillonnage contenant des images échantillonnées pour tester plus de cas que les cas basiques d'échantillonnage. (les 6 derniers chiffres de leur nom correspond aux facteurs hi*vi pour les composantes Y, Cb et Cr).
 
-# Table des matières
-- [Implantation réalisées]
-
-
-# Implantation réalisées
+## Implémentations réalisées
 
 Le sommaire d'un parcours présente la liste des différents types d'image jpeg que notre jpeg2ppm décode.
 
@@ -47,4 +39,7 @@ Le sommaire d'un parcours présente la liste des différents types d'image jpeg 
 Cependant nous n'avons pas pu réaliser entièrement la fonction permettant de décoder les images au format progressif (marche pour invader_prog.jpeg et la première étape pour toutes les images en nuances de gris puis fait une segmentation fault)
 
  
-
+# Authors
+* **Clara Bourgoin**
+* **Afnane Kotbi**
+* **Carla Puech**
